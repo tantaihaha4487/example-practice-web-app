@@ -1,0 +1,54 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/detail-on-outside-of.jpg');
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(5px);
+    background-color: antiquewhite;
+}
+.box {
+    position: absolute;
+    background-color: #ffffff80;
+    color: #000;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+.box form input[type=text] {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    margin: 20px 30px;
+    padding: 8px;
+    width: 80%;
+    outline: none;
+}
+.box form input[type=text]:focus {
+    border: 2px solid #888888;
+    
+} 
+.box form p {
+    font-weight: bold;
+}
+.box form input[type=submit] {
+    padding: 10px;
+    width: 100px;
+    margin: 20px 20px;
+    background-color: dodgerblue;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.box form input[type=submit]:hover {
+    background-color: deepskyblue;
+}
